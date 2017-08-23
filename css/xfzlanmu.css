@@ -1,0 +1,69 @@
+/****部门篇的*****/
+.imgDef2 a:hover img {
+	opacity: .8;
+	filter: alpha(opacity=80)
+}
+.rwJdt2 {
+	height: 395px;
+	position: relative
+}
+.rwJdt2 .swiper-container {
+	width: 850px;
+	height: 395px
+}
+.rwlist2 .swiper-slide {
+	height: 395px
+}
+.rwlist2 .swiper-slide a {
+	display: block;
+	width: 270px;
+	height: 395px;
+	background: #f3f3f3
+}
+.rwlist2 .swiper-slide a:hover h3 {
+	color: #FF7D00
+}
+.rwlist2 .swiper-slide img {
+	width: 270px;
+	height: 150px
+}
+.rwlist2 .swiper-slide .tit {
+	font-size: 20px;
+	font-weight: 700;
+	height: 60px;
+	line-height: 30px;
+	color: #333;
+	padding: 10px 20px 0;
+	margin-bottom: 15px;
+	overflow: hidden
+}
+.rwlist2 .swiper-slide .abs {
+	height: 96px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #666;
+	padding: 0 20px;
+	padding-top: 10px;
+	border-top: 1px solid #d7d7d7;
+	overflow: hidden
+}
+
+.rwJdt2 .arrow2 {
+	width: 22px;
+	height: 47px;
+	position: absolute;
+	top: 170px;
+	opacity: .6;
+	filter: alpha(opacity=60);
+	display: block;
+	cursor: pointer
+}
+.rwJdt2 .arrow-left {
+	left: 0;
+	background-position: -2px -340px
+}
+.rwJdt2 .arrow-right {
+	right: 0;
+	background-position: -29px -340px
+}
+
